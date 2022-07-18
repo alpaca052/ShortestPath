@@ -5,7 +5,7 @@ public class Route {
 	private Edge beforeE = null;
 	private int distance = Integer.MAX_VALUE;
 	private boolean undecided = true;
-
+	
 	public Route(Dot c) {
 		this.current_point = c;
 	}
@@ -57,6 +57,6 @@ public class Route {
 	public void setUndecided(boolean undecided) {
 		this.undecided = undecided;
 	}
-
-
+	
+	
 }

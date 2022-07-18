@@ -25,7 +25,7 @@ public class Dot {
 	public int getY() {
 		return y;
 	}
-
+	
 	public int getR() {
 		return r;
 	}

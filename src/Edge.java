@@ -41,7 +41,7 @@ public class Edge {
 	public Edge() {
 		this(new Dot(0, 0), new Dot(0, 0), 0);
 	}
-
+	
 	public Edge(Dot dot1, Dot dot2, int weight) {
 		this.dot1 = dot1;
 		this.dot2 = dot2;
